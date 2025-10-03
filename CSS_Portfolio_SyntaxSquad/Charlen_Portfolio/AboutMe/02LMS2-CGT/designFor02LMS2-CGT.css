@@ -1,0 +1,73 @@
+body
+{
+    background-image: url(Image/BackgroundImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0%;
+    padding: 20px;
+}
+
+h1
+{
+    justify-content: center;
+    display: flex;
+}
+
+.center 
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;            
+    height: 200px;          
+    border-radius: 50%;      
+    border: 5px solid white;
+    object-fit: cover;
+} 
+
+.aboutMe
+{
+    font-size: medium;
+    text-align: center;
+    background-color: rgb(30, 29, 29);
+    width: 1000px;
+    height: 150px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto; 
+}
+
+.mySkills
+{
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(30, 29, 29);
+    width: 1000px;
+    height: 450px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.myInterest
+{
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(30, 29, 29);
+    width: 1000px;
+    height: 480px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto;
+}

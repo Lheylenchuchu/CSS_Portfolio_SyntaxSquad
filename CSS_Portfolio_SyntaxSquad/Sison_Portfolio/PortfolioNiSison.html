@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webby</title>
+  <style>
+    
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      background-image: url(https://i.pinimg.com/1200x/97/93/48/9793481aace5c06e9bf3f8c7e3890678.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    svg {
+      margin-top: 20px;
+    }
+
+    input, textarea, button {
+      display: block;
+      margin: 10px auto;
+      padding: 8px;
+      width: 250px;
+    }
+
+    progress {
+      width: 250px;
+      height: 20px;
+    }
+
+    .form-section {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form-section input,
+    .form-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-section button {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-section button:hover {
+      background-color: #2980b9;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="lightblue" />
+  </svg>
+
+  <h1>Welcome to My Webby</h1>
+  <p><i>This web shows my skills and has a form you can fill out.</i></p>
+
+  <h2>Skills</h2>
+
+  <h3>Drawing</h3>
+  <p>50%</p>
+  <progress value="50" max="100"></progress>
+
+  <h3>Java</h3>
+  <p>20%</p>
+  <progress value="20" max="100"></progress>
+
+  <h3>Communication</h3>
+  <p>70%</p>
+  <progress value="70" max="100"></progress>
+
+  <h2>Choose a Kpop Group</h2>
+  <input type="search" list="kpop-groups" placeholder="Type a group" />
+  <datalist id="kpop-groups">
+    <option value="Aespa">
+    <option value="Blackpink">
+    <option value="Newjeans">
+    <option value="Illit">
+    <option value="Enhypen">
+    <option value="StrayKids">
+  </datalist>
+
+  <h2>Contact Me</h2>
+  <form-section>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form-section>
+
+</body>
+</html>
+

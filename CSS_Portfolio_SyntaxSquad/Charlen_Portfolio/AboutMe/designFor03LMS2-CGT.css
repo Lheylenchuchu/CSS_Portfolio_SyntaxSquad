@@ -1,0 +1,125 @@
+body
+{
+    background-image: url(Image/BackgroundImage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0%;
+    padding: 20px;
+}
+
+h1
+{
+    /*justify-content: center;*/
+    position: relative;
+    top: 80px;
+    left: 560px;
+    display: flex;
+    font-size: xx-large;
+}
+
+.name
+{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    bottom: 120px;
+
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    
+}
+
+.mySelf
+{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    bottom: 90px;
+
+    width: 200px;            
+    height: 200px;          
+    border-radius: 50%;      
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.aboutMe
+{
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(30, 29, 29);
+    width: 1000px;
+    height: 400px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 350px; 
+    margin-top: -250px;
+}
+
+.Music
+{
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(34, 33, 33);
+    width: 1325px;
+    height: 400px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.myLifeLesson
+{
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(34, 32, 32);
+    width: 1325px;
+    height: 130px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.followMe
+{
+    position: relative;
+    left: 340px;
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(35, 33, 33);
+    width: 650px;
+    height: 200px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.section
+{
+    position: relative;
+    right: 410px;
+    top: -210px;
+    font-size: medium;
+    text-align: justify;
+    background-color: rgb(35, 33, 33);
+    width: 500px;
+    height: 400px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin:auto;
+}
